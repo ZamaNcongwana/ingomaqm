@@ -425,38 +425,39 @@
             </div>
 
             <div class="row">
-                <div class="col-12">
-                    <!-- Contact Form Area -->
-                    <div class="contact-form-area">
-                        <form action="albums-store.html" data-netlify="true" method="post" onSubmit="submit" data-netlify-honeypot="bot-field" >
-                            <div class="row">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Name">
-                                    </div>
+                <div class="card-heading">
+                    <div class="card-body">    
+                        <!-- Contact Form Area -->
+                        <div class="contact-form-area">
+                            <form action="albums-store.html" data-netlify="true" method="post" onSubmit="submit" data-netlify-honeypot="bot-field" >
+                              
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="Name" name="name">
                                 </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                    </div>
+                                <div class="input-group">
+                                    <input class="input--style-3" type="email" placeholder="Email" name="email">
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    </div>
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="Whatsapp Number" name="phone">
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="Spotify Link" name="url">
                                 </div>
-                                <div class="col-12 text-center">
-                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                
+                                <div class="input--style-3">
+                                    <input type="file" name="myfile"
+                                    id="myfile" placeholder="Upload File"
+                                    rows="7" />
                                 </div>
-                            </div>
-                        </form>
+                                <div class="input--style-3">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
+                                <div class="p-t-10">
+                                    <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                                </div>
+                            </form> 
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -479,6 +480,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                             <li><a href="index.html">Home</a></li>
                             <li><a href="albums-store.html">Albums</a></li>
                             <li><a href="contact.html">Contact</a></li>
+                            <li><a href="https://quadrantmusicpackages.netlify.app/business%20proposal.html">Business Profile</a></li>
                         </ul>
                     </div>
                 </div>
